@@ -50,7 +50,7 @@ def add_quiz(count: int, db: Session = Depends(get_db)) -> None:
         while db.query(Quiz).filter(Quiz.id_question == res["id"]).first() is not None:
             url = 'https://jservice.io/api/random?count=1'
             response = requests.get(url)
-            data = response.json()
+            res = response.json()[0]
 
         new_quiz = Quiz(
             id_question=res["id"],
