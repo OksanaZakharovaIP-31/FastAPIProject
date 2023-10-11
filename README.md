@@ -38,7 +38,7 @@ test task
 
   1. Клонирование репозитория
 
-`https://github.com/OksanaZakharovaIP-31/PICASSO.git`
+`https://github.com/OksanaZakharovaIP-31/FastAPIProject.git`
 
 2. Установка виртуального окружения и его активация
 
